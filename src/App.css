@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Pacifico', cursive;
+}
+
+body {
+  background-color: #FFDFD6;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #304463;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.passwordBox {
+  width: 350px;
+  padding: 20px;
+  background-color: #E3A5C7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.passwordBoxIn {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.passwordBoxIn input {
+  flex-basis: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.passwordBoxIn button {
+  flex-basis: 20%;
+  padding: 10px;
+  background-color: #B692C2;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.passwordBoxIn button:hover {
+  background-color: #B692C2;
+  
+}
+.passwordBoxIn button.copied{
+  background-color:#694F8E ;
+}
+
+.passlength {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  color: #304463;
+}
+
+.passlength label {
+  flex-basis: 80%;
+}
+
+.passlength input[type="number"], .passlength input[type="checkbox"] {
+  flex-basis: 20%;
+  width: 60px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.passlength input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #694F8E;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #694F8E;
+  transform: translateY(-2px);
+  opacity: 0.85;
+  
+}
+
+
+.btn:active {
+  transform: translateY(0);
+}
